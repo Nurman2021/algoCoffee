@@ -15,9 +15,19 @@
     slidesPerView={3}
     navigation
     pagination={{ clickable: true }}
+    breakpoints={{
+                            320: {
+                                slidesPerView: 1,
+                                spaceBetween: 20,
+                            },
+                            768: {
+                                slidesPerView: 2,
+                                spaceBetween: 40,
+                            },
+
+                        }}
+
    
-    on:slideChange={() => console.log('slide change')}
-    on:swiper={(e) => console.log(e.detail[0])}
   >
     <SwiperSlide>
     	<img src="/images/galery-1.jpg"/>

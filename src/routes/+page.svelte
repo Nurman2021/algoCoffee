@@ -38,7 +38,7 @@
                             <a href="https://coconut.or.id/" class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Study Club</a>
                         </li>
                         <li>
-                            <a href="/algo" class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Galery</a>
+                            <a href="#galery" class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Galery</a>
                         </li>
                     </ul>
                 </div>
@@ -53,8 +53,8 @@
                   <App />
             </div>
             <div class="mr-auto place-self-center lg:col-span-7 lg:row-span-12 row-span-7">
-                <h1 class="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">Secangkir Inspirasi, <br>Setiap Hari di <span class="text-[#ff7b03]"> Algo Coffee and Snack<span/></h1>
-                <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">This free and open-source landing page template was built using the utility classes from <a href="https://tailwindcss.com" class="hover:underline">Tailwind CSS</a> and based on the components from the <a href="https://flowbite.com/docs/getting-started/introduction/" class="hover:underline">Flowbite Library</a> and the <a href="https://flowbite.com/blocks/" class="hover:underline">Blocks System</a>.</p>
+                <h1 class="max-w-2xl mb-4 text-4xl font-extrabold leading-none text-center lg:text-left tracking-tight md:text-5xl xl:text-6xl dark:text-white">Secangkir Inspirasi, <br>Setiap Hari di <span class="text-[#ff7b03]"> Algo Coffee and Snack<span/></h1>
+                <p class="max-w-xl mb-6 font-light text-gray-500 text-center lg:text-left lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Ruang inspirasi bagi jiwa yang haus akan rasa dan kreativitas</p>
                 <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
                     <a href="https://github.com/themesberg/landwind" class="inline-flex gap-1 items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
                        <Chrome /> Algo Coffee
@@ -163,7 +163,7 @@
       </section>
     <!-- End block -->
       <!-- Start block -->
-    <section class="bg-white dark:bg-gray-900">
+    <section class="bg-white dark:bg-gray-900" id="galery">
         <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-24 lg:px-6">
             <div class="max-w-screen-md mx-auto mb-8 text-center lg:mb-12">
                 <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Momen di Algo Coffee and Snack</h2>
